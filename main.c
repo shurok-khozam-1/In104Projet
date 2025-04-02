@@ -30,20 +30,20 @@ void readFromFile(const char *filename) {
         printf("Error opening file!\n");
         return;
     }
-	printf("Reading users from file...\n");
-	
-	// TODO: Continue the implementation...
-	
-	fclose(file);
+    printf("Reading users from file...\n");
+
+    // TODO: Continue the implementation...
+
+    fclose(file);
 }
 
 // TODO: Continue the implementation...
 
 int main() {
-	initializeAdjacencyMatrix();
+    initializeAdjacencyMatrix();
     readFromFile("social_network.txt");
 	
-	// TODO: Continue the implementation...
+    // TODO: Continue the implementation...
 
     return 0;
 }
